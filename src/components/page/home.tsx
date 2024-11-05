@@ -34,6 +34,8 @@ export default function Home() {
   const [recentlyUsedData, setRecentlyUsedData] = useState<Array<ITool>>([]);
   const [toolData, setToolData] = useState({ list: toolList, searchList: {} as any });
 
+  const showBrand = process.env.NEXT_PUBLIC_SHOW_BRAND === "true";
+
   // Read the current user's language
   useEffect(() => {
     const lang = getLanguage()
@@ -189,7 +191,7 @@ export default function Home() {
       <Dialog open={open} onOpenChange={(open) => !delLoad && setOpen(open)}>
         <DialogTrigger asChild>
           <IoMdCloseCircleOutline className="text-lg ml-1 hover:text-red-600" onClick={(event) => {
-            event.stopPropagation(); 
+            event.stopPropagation();
             setOpen(true);
           }} />
         </DialogTrigger>
@@ -261,7 +263,7 @@ export default function Home() {
                     toolData.list[item.classify_key] ?
                       onDelCustomTool(item) :
                       <IoMdCloseCircleOutline className="text-lg ml-1 hover:text-red-600" onClick={(event) => {
-                        event.stopPropagation(); 
+                        event.stopPropagation();
                         onDelClassify(item)
                       }} />
                   }
@@ -305,7 +307,7 @@ export default function Home() {
           ))
         }
       </div>
-      <PoweredBy />
+      {showBrand && <PoweredBy />}
     </div>
   );
 }
