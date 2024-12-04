@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![インターフェースプレビュー](docs/AI电商文案助手jp.png)   
 
 [302.AI](https://302.ai)の[AIコマースコピーライティングアシスタント](https://302.ai/tools/ecom/)のオープンソース版です。
 302.AIに直接ログインして、コードやコンフィギュレーション不要でオンライン版を使用できます。
