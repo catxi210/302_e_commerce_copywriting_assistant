@@ -2,7 +2,7 @@
 
 <p align="center">AI电商文案助手可以快速生成高质量的创意内容、优化现有文案、并根据不同场景和目标受众定制个性化内容。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/badge/21212.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -12,8 +12,11 @@
 或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
-![界面预览](docs/preview.jpg)
-![界面预览](docs/preview2.jpg)
+已上线五种电商场景类型，多种文案编写方式可供选择，提供自定义文案制作功能，帮助您快速生成高质量的文案。
+![界面预览](docs/电商1.png)       
+
+以商品介绍生成为例，输入关键词，即可生成详细商品介绍，提升用户转化。
+![界面预览](docs/电商2.png)
 
 ## 项目特性
 ### 🛠️ 支持多场景多平台
