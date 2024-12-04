@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![Interface Preview](docs/AI电商文案助手en.png)  
 
 This is the open-source version of [302.AI](https://302.ai)'s [AI E-commerce Copywriting Assistant](https://302.ai/tools/ecom/).
 You can directly log in to 302.AI to use the online version with zero code and zero configuration.
