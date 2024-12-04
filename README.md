@@ -12,7 +12,7 @@ You can directly log in to 302.AI to use the online version with zero code and z
 Or modify this project according to your needs, input 302.AI's API KEY, and deploy it yourself.
 
 ## Interface Preview
-Five e-commerce scenario types have been launched. Multiple copywriting writing methods are available for selection, and the custom copywriting production function is provided to help you quickly generate high-quality copywriting.
+Multiple e-commerce scene types and copywriting writing methods have been launched and are available for selection. It also provides a custom copywriting production function to help you quickly generate high-quality copywriting.
 ![Interface Preview](docs/电商英1.png)     
 
 Taking the generation of product introductions as an example, detailed product introductions can be generated just by inputting keywords, which helps to improve user conversion.
